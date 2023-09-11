@@ -40,4 +40,17 @@ class Dog extends Animals {
     super(species, sound);
     this.color = color;
   }
+
+  //Override the makeSound
+  makeSound() {
+    console.log(
+      "The method makeSound method is override, to add property of color:::"
+    );
+    console.log("'Species' is:", this.species);
+    console.log("'Species's Sound' is:", this.sound);
+    console.log("Species's Color' is:", this.color);
+    console.log(
+      `${this.color} color ${this.species} species make ${this.sound} sound`
+    );
+  }
 }
