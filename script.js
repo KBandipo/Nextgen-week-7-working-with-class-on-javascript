@@ -9,3 +9,6 @@
 //Add addotional property of 'color' to the 'Dog' class properties
 //Override the Makesound method to include 'Dog' class
 //Make the 'Dog' sound
+
+// Create class 'Animal'
+class Animals {}
