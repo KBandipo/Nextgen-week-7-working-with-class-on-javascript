@@ -29,3 +29,6 @@ class Animals {
 //Instance of 'Dog'
 const testDog = new Animals("Dog", "Woof");
 console.log(testDog);
+
+//Dog species make sound
+testDog.makeSound();
