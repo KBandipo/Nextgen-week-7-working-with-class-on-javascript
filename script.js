@@ -12,8 +12,16 @@
 
 // Create class 'Animal'
 class Animals {
+  //Add properties the Animals class
   constructor(species, sound) {
     this.species = species;
     this.sound = sound;
+  }
+  //Include a method 'MakeSound'
+  makeSound() {
+    console.log("The method makeSound called by the instance:::");
+    console.log("'Species' is:", this.species);
+    console.log("'Species's Sound' is:", this.sound);
+    console.log(`${this.species} species makes ${this.sound} sound`);
   }
 }
