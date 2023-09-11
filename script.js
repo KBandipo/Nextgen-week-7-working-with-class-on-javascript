@@ -34,4 +34,10 @@ console.log(testDog);
 testDog.makeSound();
 
 //Subclass of 'Dog' add more property
-class Dog extends Animals {}
+class Dog extends Animals {
+  //Add color property
+  constructor(species, sound, color) {
+    super(species, sound);
+    this.color = color;
+  }
+}
