@@ -11,4 +11,9 @@
 //Make the 'Dog' sound
 
 // Create class 'Animal'
-class Animals {}
+class Animals {
+  constructor(species, sound) {
+    this.species = species;
+    this.sound = sound;
+  }
+}
