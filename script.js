@@ -32,3 +32,6 @@ console.log(testDog);
 
 //Dog species make sound
 testDog.makeSound();
+
+//Subclass of 'Dog' add more property
+class Dog extends Animals {}
